@@ -1,0 +1,21 @@
+.thebod {
+  font-family: Palatino, Bookman, Helvetica, Arial;
+  font-size: 14px;
+  color: #A66100;
+}
+
+.tall {
+    height: 400px;
+}
+
+.top {
+    height: 50px;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: #A66100;
+}
+.footer a:hover {
+    text-decoration: none;
+}
