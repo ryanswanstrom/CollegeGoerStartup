@@ -22,6 +22,6 @@ class ApplicationController < ActionController::Base
     else
       flash[:errors] = "Email is not correct. Please, try again."
     end
-    redirect_to 'index'
+    redirect_to :action => 'index'
   end
 end
