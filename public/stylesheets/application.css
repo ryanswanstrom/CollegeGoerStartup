@@ -1,15 +1,20 @@
 .thebod {
   font-family: Palatino, Bookman, Helvetica, Arial;
   font-size: 14px;
-  color: #A66100;
+  color: #043a6b; /*blue #043a6b , orange #A66100 */
+   /* light brown #bf8430; */
 }
 
 .tall {
-    height: 400px;
+    height: 430px;
 }
 
 .top {
     height: 50px;
+}
+
+.footer {
+    color: #A66100;
 }
 
 .footer a {
@@ -18,4 +23,8 @@
 }
 .footer a:hover {
     text-decoration: none;
+}
+
+.flash {
+    padding-top: 120px;
 }

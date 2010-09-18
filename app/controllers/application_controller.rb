@@ -14,4 +14,14 @@ class ApplicationController < ActionController::Base
   def index
     @title = 'College Admission is about to change'
   end
+
+  def create
+    addr = Email.new(params[:email])
+    if addr.save
+      flash[:notice] = "Thank you. CollegeGoer will stay in touch."
+    else
+      flash[:errors] = "Email is not correct. Please, try again."
+    end
+    redirect_to 'index'
+  end
 end
