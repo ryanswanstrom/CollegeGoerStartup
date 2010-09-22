@@ -1,30 +1,108 @@
 .thebod {
-  font-family: Palatino, Bookman, Helvetica, Arial;
-  font-size: 14px;
-  color: #043a6b; /*blue #043a6b , orange #A66100 */
-   /* light brown #bf8430; */
+    font-family: Helvetica, Arial, Palatino, Bookman;
+    /*color: #043a6b; blue #043a6b , orange #A66100, light brown #bf8430 */
+    background-color: #efefef;
 }
 
-.tall {
-    height: 430px;
+.title {
+    font-family: Helvetica, Arial, Palatino, Bookman;
+    font-size: 6em;
+    font-weight: bold;
+    color: #8e0303;
+}
+
+.mid {
+    padding-top: 90px;
 }
 
 .top {
-    height: 50px;
+    height: 40px;
 }
 
 .footer {
-    color: #A66100;
+    color: #8e0303;
+    padding-top: 40px;
 }
 
 .footer a {
     text-decoration: underline;
-    color: #A66100;
+    color: #8e0303;
 }
 .footer a:hover {
     text-decoration: none;
 }
 
-.flash {
-    padding-top: 120px;
+#flash_errors {
+    border: thin solid #8e0303;
+    color: #8e0303;
+    background-color: #ff7a73;
+}
+
+#flash_notice {
+    border: thin solid #348017;
+    color: #348017;
+    background-color: #c3f8b8;
+}
+
+.mail_button {
+    color: #ffffff;
+    background-color: #8e0303;
+    border: 0;
+    padding: 3px 3px 3px 3px;
+}
+
+footer li {
+    display: block;
+    height: 64px;
+    width: 64px;
+}
+
+#social-nav
+{
+    list-style: none; /*removes the underline below the link*/
+    padding: 0; /*removes the padding*/
+}
+#social-nav li
+{
+
+    float: left; /*this makes the element displays in a horizontal line*/
+    width: 64px; /*This allows the picture to be fit in the block*/
+    height: 64px; /*This allows the picture to be fit in the block*/
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+#social-nav li:hover
+{
+    background-position: 0 -3px;
+}
+#social-nav li a
+{
+    display: block;  /*The element will be displayed as a block level element */
+    width: 64px; /*This allows the picture to be fit in the block*/
+    text-decoration: none; /*removes all text decoration*/
+}
+
+.twit {
+    background: url(/images/red-glossy-twitter.png) no-repeat;
+}
+
+.facebook {
+    background: url(/images/red-glossy-facebook.png) no-repeat;
+}
+
+.line {
+    height: 2px;
+    background-color: #000000;
+    padding: 0;
+}
+
+.logo {
+    background: url(/images/red-white-pearl-hat.png) no-repeat;
+    height: 256px;
+    width: 256px;
+}
+
+.extra {
+    height: 256px;
 }

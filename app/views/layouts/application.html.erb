@@ -10,35 +10,29 @@
     <%= yield(:head) %>
     <meta name="description" content="Let Colleges compete for you." />
     <meta name="keywords" content="college, university, recruit, admission"/>
+    <link rel="shortcut icon" type="image/png" href="images/red-glossy-hat_fav.png" />
   </head>
   <body class="thebod">
-    <div class="container tall">
-
-      <div class="span-24 last top" > &nbsp; </div>
-
-      <div class="span-15">
-        <%= image_tag "/images/collegegoer_white.png" %>
-      </div>
-      <div class="span-6">
-        <div class="flash">
-          <%- flash.each do |name, msg| -%>
-            <%= content_tag :div, msg, :id => "flash_#{name}" %>
-          <%- end -%>
-        </div>
-      </div>
-      <div class="span-3 last" > &nbsp; </div>
+    <div class="container">
 
       <%= yield %>
-    </div>
 
-    <div class="footer">
-      <div class="container">
-        <div class="span-12">
-          &copy; 2010 <%= link_to ApplicationController::Website_url, :controller => 'application' %>
-          <br/>
-        </div>
-        <div class="span-12 last"/>
+
+      <div class="span-9"> &nbsp; </div>
+
+      <div class="span-15 last">Follow Us
+        <div class="span-15 last line"> </div>
+        <ul id="social-nav">
+          <li class="twit"><a href="#"></a></li>
+          <li class="facebook"><a href="#"></a></li>
+        </ul>
       </div>
+
+      <div class="span-5"> &nbsp; </div>
+      <div class="span-7 footer">
+        &copy; 2010 <%= link_to ApplicationController::Website_url, :controller => 'application' %>
+      </div>
+      <div class="span-12 last"> </div>
     </div>
 
   </body>

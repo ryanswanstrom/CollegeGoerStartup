@@ -1,11 +1,23 @@
 <% title ApplicationController::Website_name + " | College Admission is about to change" %>
 
 
-<div class="span-12" > &nbsp; </div>
-<div class="span-12 last">
-   Enter your email address to be notified when the site launches. <br/>
-  <% form_for :email, :url => {:action => "create"} do |f| %>
-    <%= f.text_field :email%>
-    <input id="submit" name="submit" type="submit" value="Notify Me" class="b_button"/>
-  <% end %>
+<div class="span-3 extra" > &nbsp; </div>
+<div class="span-6 logo extra" > </div>
+<div class="span-15 last mid extra" > <h1 class="title">College Goer</h1>
+
+  <div class="span-15 last">
+    Enter your email address to be notified when the site launches. <br/>
+    <% form_for :email, :url => {:action => "create"} do |f| %>
+      <%= f.text_field :email%>
+      <input id="submit" name="submit" class="mail_button" type="submit" value="Notify Me" class="b_button"/>
+    <% end %>
+
+    <div class="span-15 last">
+      <% if !flash.empty? %>
+          <%- flash.each do |name, msg| -%>
+            <%= content_tag :div, msg, :id => "flash_#{name}" %>
+          <%- end -%>
+      <% end %>
+    </div>
+  </div>
 </div>
