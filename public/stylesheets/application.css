@@ -68,8 +68,10 @@ footer li {
     float: left; /*this makes the element displays in a horizontal line*/
     width: 64px; /*This allows the picture to be fit in the block*/
     height: 64px; /*This allows the picture to be fit in the block*/
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
+    vertical-align: bottom;
 
 }
 #social-nav li:hover
@@ -81,6 +83,10 @@ footer li {
     display: block;  /*The element will be displayed as a block level element */
     width: 64px; /*This allows the picture to be fit in the block*/
     text-decoration: none; /*removes all text decoration*/
+    padding-top: 64px;
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
 }
 
 .twit {
@@ -89,6 +95,14 @@ footer li {
 
 .facebook {
     background: url(/images/red-glossy-facebook.png) no-repeat;
+}
+
+.about {
+    background: url(/images/red-glossy-about.png) no-repeat;
+}
+
+.blog {
+    background: url(/images/red-glossy-blog.png) no-repeat;
 }
 
 .line {
