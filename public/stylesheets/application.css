@@ -1,5 +1,5 @@
 .thebod {
-    font-family: "great-primer-1","great-primer-2",Helvetica, Arial, Palatino, Bookman;
+    font-family: "gesta-1","gesta-2",Helvetica, Arial, Palatino, Bookman;
     /*color: #043a6b; blue #043a6b , orange #A66100, light brown #bf8430 */
     background-color: #efefef;
 }
@@ -45,7 +45,7 @@
 }
 
 .mail_button {
-    font-family: "great-primer-1","great-primer-2",Helvetica, Arial, Palatino, Bookman;
+    font-family: "gesta-1","gesta-2",Helvetica, Arial, Palatino, Bookman;
     color: #ffffff;
     background: url(/images/red-glossy-button.png) no-repeat;
     border: 0;
