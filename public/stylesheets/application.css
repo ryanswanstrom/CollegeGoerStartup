@@ -1,11 +1,11 @@
 .thebod {
-    font-family: Helvetica, Arial, Palatino, Bookman;
+    font-family: "great-primer-1","great-primer-2",Helvetica, Arial, Palatino, Bookman;
     /*color: #043a6b; blue #043a6b , orange #A66100, light brown #bf8430 */
     background-color: #efefef;
 }
 
 .title {
-    font-family: Helvetica, Arial, Palatino, Bookman;
+    font-family: "great-primer-sc-1","great-primer-sc-2",Helvetica, Arial, Palatino, Bookman;
     font-size: 6em;
     font-weight: bold;
     color: #8e0303;
@@ -45,10 +45,12 @@
 }
 
 .mail_button {
+    font-family: "great-primer-1","great-primer-2",Helvetica, Arial, Palatino, Bookman;
     color: #ffffff;
-    background-color: #8e0303;
+    background: url(/images/red-glossy-button.png) no-repeat;
     border: 0;
-    padding: 3px 3px 3px 3px;
+    height: 30px;
+    width: 101px;
 }
 
 footer li {
