@@ -4,11 +4,16 @@
     background-color: #efefef;
 }
 
+.edges {
+    background-color: #efefef;
+}
+
 .title {
     font-family: "great-primer-sc-1","great-primer-sc-2",Helvetica, Arial, Palatino, Bookman;
     font-size: 6em;
     font-weight: bold;
     color: #8e0303;
+    text-decoration: none;
 }
 
 .mid {
