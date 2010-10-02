@@ -2,7 +2,13 @@
 
 
   <div class="span-15 last">
-    Enter your email address to be notified when the site launches. <br/>
+
+    <ul>
+      <li>Are planning to enroll in a College or University? </li>
+      <li>Are you a College or University looking to find the best students? </li>
+    </ul>
+
+    If so, enter your email address to be notified when the site launches. <br/>
     <% form_for :email, :url => {:action => "create"} do |f| %>
       <%= f.text_field :email%>
       <input id="submit" name="submit" class="mail_button" type="submit" value="Notify Me" class="b_button"/>
